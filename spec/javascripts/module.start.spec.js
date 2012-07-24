@@ -35,7 +35,7 @@ describe("module start", function(){
 
       MyApp.module("MyModule", definition);
 
-      MyApp.module("MyModule").start();
+      MyApp.start();
     });
 
     it("should run the module initializers once", function(){
